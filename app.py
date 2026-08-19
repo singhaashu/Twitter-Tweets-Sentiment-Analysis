@@ -8,7 +8,7 @@ import numpy as np
 
 model=load_model("model.h5")
 
-with open('Tokenizer.pkl','rb') as File:
+with open('tokenizer.pkl','rb') as File:
     tokenizer=pickle.load(File)
 
 st.title("Twitter Tweets Sentiment Analysis")
