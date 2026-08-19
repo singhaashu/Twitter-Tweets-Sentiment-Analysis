@@ -24,4 +24,4 @@ if st.button('Predict Sentiment') and tweet.strip():
 
     sentiment_map={0:'Negative',1:'Neutral',2:'Positive'}
 
-    st.write("Sentiment",sentiment_map[predicted_class])
+    st.write("Sentiment ",sentiment_map[predicted_class])
